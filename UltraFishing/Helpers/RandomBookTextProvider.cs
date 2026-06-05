@@ -60,11 +60,23 @@ Onun katkıları şöyle:
 </size>
 <color=green><i>"bi balık yeniliyecez diye geldik tüm modu yeniden yaptık amına koyim"</i></color>
 
+<b><color=#FFD300>achelia</color> - ULTRATURK BAŞ ÇEVİRMEN/PROGRAMCI</b>
+
+Modu beğendiğinden dolayı Türkçe'ye çevirmek istedi.
+
+Ayrı olarak UltraFishing, UltraTurk ile uyumlu. Zaten UltraTurk olmadan bu modun çevrilmiş halini oynamanız mümkün değil.
+
+Onun katkıları şöyle:
+<size=18>
+- Türkçe çeviri
+- UltrakULL'a UltraFishing desteği eklemesi
+- UltraFishing'i UltraTurk ile uyumlu hale getirmesi
+</size>
+<color=#FFD300><i>"güzel mod oynayın"</i></color>
+
 <b>ÖZEL TEŞEKKÜRKLER</b>
 
-DİSCORD'DAKİ DOSTANİ İNSANLAR - tavsiye, geri dönüş ve öneriler
-
-ACHELIA - türkçe çeviri
+DİSCORD'DAKİ MUHTEŞEM İNSANLAR - tavsiye, geri dönüş ve öneriler
 
 POOT MAN - modu test etme
 
@@ -101,7 +113,7 @@ HAKITA - güzel oyun yapmış
 <align=center><b>GÜNÜN TÜYOSU:</b>
 
 
-"Şelale yolu gizliyor. Agnes Gorge Yolu. Yeteneklerini kullan."
+"Şelale, sukarıyı yolu gizliyor. Agnes Gorge Yolu. Yeteneklerini kullan."
 """",
 """"
 <align="center"><b>VASİYETNAME IV

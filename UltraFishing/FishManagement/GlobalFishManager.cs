@@ -238,7 +238,7 @@ public static class GlobalFishManager {
         break;
       case "\"size 2\"":
         fish.fishName = "\"boyut 2\"";
-        fish.description = "Bir yalan. Tam bir sahtekarlık. Balıkçıları çılgına çevirmek için uydurulmuş bir aldatmaca. Birçoğu bu değersiz şeyi ararken boşuna canlarını kaybetti.\n\n<b><color=red>O L A N L A R D A N   M E M N U N   M U S U N</color></b>";
+        fish.description = "Bir yalan. Tam bir sahtekarlık. Balıkçıları çılgına çevirmek için uydurulmuş bir aldatmaca. Birçoğu bu değersiz şeyi ararken boşuna canlarını kaybetti.\n\n<b><color=red>O L A N L A R D A N   M E M N U N   M U S U N ?</color></b>";
         break;
     }
     return fish;
@@ -293,7 +293,7 @@ Aşırı normal bir balık. Buna benzer balıkları her yerde bulabilirsin. Cenn
 
 Genellikle suyun aktığı yerlerde bulunur.
 """";
-      case "\"size 2\"":
+      case "\"boyut 2\"":
         return """"
 Herkesin bahsettiği efsanevi balık. Tüm balıkçıların hayali ama henüz kimse onu yakalayamadı. Söylendiğine göre, sadece her tür balığı yakalamış usta balıkçılara görünür.
 

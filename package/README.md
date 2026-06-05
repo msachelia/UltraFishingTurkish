@@ -15,7 +15,7 @@ UltraFishing modunun, UltraTurk ekibi tarafından Türkçe'ye çevrilmiş halidi
 # Katkısı Bulunanlar
 - earthling on fire - UltraFishing'in Orijinal Geliştiricisi
 - Draghtnim - UltraFishing Geliştiricisi
-- Achelia - Türkçe Çeviri
+- achelia - Türkçe Çeviri
 - Poot Man - Kalite Kontrol
 - Discord'daki Muhteşem İnsanlar - Tavsiye, Geri Dönüş ve Öneriler
 

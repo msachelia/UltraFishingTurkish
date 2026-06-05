@@ -15,7 +15,7 @@ namespace UltraFishing;
 public class Plugin : BaseUnityPlugin {	
   public const string PLUGIN_GUID = "com.UltraTurk.UltraBalikci";
   public const string PLUGIN_NAME = "UltraBalikci";
-  public const string PLUGIN_VERSION = "2.1.0";
+  public const string PLUGIN_VERSION = "2.2.0";
   public static AssetBundle bundle;
   public static ManualLogSource logger;
   public static string modDir;

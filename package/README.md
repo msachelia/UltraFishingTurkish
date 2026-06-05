@@ -1,26 +1,25 @@
-# What does this mod do?
-- Adds the fishing rod as a permanent weapon in your arsenal in <b>slot 6.</b> This is the same slot as the spawner arm and the 7-S weapons.
-![](https://raw.githubusercontent.com/earthlingOnFire/UltraFishing/refs/heads/main/screenshots/Screenshot1.png)
-- Adds a fishing terminal in the elevator room of (almost) every level.
-![](https://raw.githubusercontent.com/earthlingOnFire/UltraFishing/refs/heads/main/screenshots/Screenshot6.png)
-- Adds a bunch of new fish to discover!
-![](https://raw.githubusercontent.com/earthlingOnFire/UltraFishing/refs/heads/main/screenshots/Screenshot4.png)
-- And perhaps some secret fishing spots...
-![](https://raw.githubusercontent.com/earthlingOnFire/UltraFishing/refs/heads/main/screenshots/Screenshot5.png)
-- And more?...
-![](https://raw.githubusercontent.com/earthlingOnFire/UltraFishing/refs/heads/main/screenshots/Screenshot7.png)
+# Peki bu mod ne yapıyor tam olarak?
+- Cephaneliğinizin <b>6. slotuna</b> bir olta ekler. Spawner kolu ve 7-S temizlik araçları için kullanılan aynı slot.
+![](https://raw.githubusercontent.com/msachelia/UltraFishingTurkish/refs/heads/main/screenshots/Screenshot1.png)
+- Her seviye başlangıcı odasına balıklar hakkında bir terminal ekler!
+![](https://raw.githubusercontent.com/msachelia/UltraFishingTurkish/refs/heads/main/screenshots/Screenshot6.png)
+- Keşfedebileceğiniz bir sürü yeni balık!
+![](https://raw.githubusercontent.com/msachelia/UltraFishingTurkish/refs/heads/main/screenshots/Screenshot4.png)
+- Ve aşırı gizli balık tutma yerleri de...
+![](https://raw.githubusercontent.com/msachelia/UltraFishingTurkish/refs/heads/main/screenshots/Screenshot5.png)
+- Ve daha fazlası?...
+![](https://raw.githubusercontent.com/msachelia/UltraFishingTurkish/refs/heads/main/screenshots/Screenshot7.png)
 
-# Manual installation
-- First, ensure BepInEx is installed. 
-- Then, drag the "UltraFishing" folder to the BepInEx/plugins folder in your game files.
+UltraFishing modunun, UltraTurk ekibi tarafından Türkçe'ye çevrilmiş halidir. Orijinal moda buradan ulaşabilirsiniz: [UltraFishing](https://thunderstore.io/c/ultrakill/p/earthlingOnFire/UltraFishing/)
 
-# Known issues
-- The fishing rod and fish terminal may occasionally disappear when entering a level. With the exception of the first 4 secret levels, this is unintentional. Restarting the level should fix the issue. 
-- Shockwaves can sometimes make some fishing spots unavailable. Waiting for a bit after the shockwave disappears should fix this.
+# Katkısı Bulunanlar
+- earthling on fire - UltraFishing'in Orijinal Geliştiricisi
+- Draghtnim - UltraFishing Geliştiricisi
+- Achelia - Türkçe Çeviri
+- Poot Man - Kalite Kontrol
+- Discord'daki Muhteşem İnsanlar - Tavsiye, Geri Dönüş ve Öneriler
 
-# Credits
-- earthling on fire - original developer
-- Draghtnim - developer
-- Poot Man - playtesting
-- Cool people on discord - advice, feedback and suggestions
+# Bilinen Sorunlar
+- Bir seviyeye girerken olta ve balık terminali ara sıra kaybolabilir. İlk 4 saklı seviye hariç, bu durum bir bug. Seviyeyi yeniden başlatmak sorunu çözmelidir. 
+- Şok dalgaları bazen bazı balık tutma noktalarının kullanılamaz hale gelmesine neden olabilir. Şok dalgası ortadan kalktıktan sonra biraz beklemek bu sorunu çözmelidir.
 

@@ -67,12 +67,12 @@ public static class GlobalFishManager {
 
     FishCollection defaultCollection = new FishCollection("ULTRAKILL");
     for (int i = 0; i < defaultFishes.Length; i++) {
-      FishObject fish = Addressables.LoadAssetAsync<FishObject>(defaultFishes[i].Item1).WaitForCompletion();
-      int saveSlot = defaultFishes[i].Item2;
-      defaultCollection.RegisterFish(fish, savePath, saveSlot);
-    }
+        FishObject fish = Addressables.LoadAssetAsync<FishObject>(defaultFishes[i].Item1).WaitForCompletion();
+        int saveSlot = defaultFishes[i].Item2;
+        defaultCollection.RegisterFish(PrepareFish(fish), savePath, saveSlot);
+        }
 
-    FishCollection ultrafishingCollection = new FishCollection("ULTRAFISHING");
+    FishCollection ultrafishingCollection = new FishCollection("ULTRABALIKÇI");
     for (int i = 0; i < customFishes.Length; i++) {
       FishObject fish = Plugin.bundle.LoadAsset<FishObject>(customFishes[i].Item1);
       int saveSlot = customFishes[i].Item2;
@@ -81,7 +81,7 @@ public static class GlobalFishManager {
 
     FishCollection size2Collection = new FishCollection("???");
     FishObject size2Fish = Plugin.bundle.LoadAsset<FishObject>(size2);
-    size2Collection.RegisterFish(size2Fish, savePath, size2SaveSlot);
+    size2Collection.RegisterFish(PrepareFish(size2Fish), savePath, size2SaveSlot);
 
     RegisterCollection(defaultCollection);
     RegisterCollection(ultrafishingCollection);
@@ -92,9 +92,13 @@ public static class GlobalFishManager {
     switch (fish.fishName) {
       case "Wise Fish":
         fish.customPickup.gameObject.AddComponent<BookRandomizer>();
+        fish.fishName = "Bilge Balık";
+        fish.description = "Çok bilge bir balık. Kendisini bulabilen herkese engin bilgisini aktarır.\n\nKütüphanelerin en derin ve en karanlık köşelerinde bulunur.";
         break;
       case "Poisson de Vin":
         fish.worldObject.transform.Find("Liquid").gameObject.AddComponent<Liquid>();
+        fish.fishName = "Poisson de Vin";
+        fish.description = "Değerli ve lüks bir balık. Bu balığın yaşı ilerledikçe tadı daha da lezzetli hale geldiği söylenir; bu nedenle genellikle tüketilmeden önce uzun süre bekletilir.\n\nBu balığın vahşi doğada hiç bulunmuş olduğuna dair bir kayıt yoktur, ancak lüks yolcu gemileri gibi seçkin mekanlarda sıklıkla servis edilmektedir.";
         break;
       case "NaN":
         MaterialSwapper matSwap = fish.worldObject.transform.GetChild(1).gameObject.AddComponent<MaterialSwapper>();
@@ -109,6 +113,132 @@ public static class GlobalFishManager {
         matSwap1.mat = Plugin.bundle.LoadAsset<Material>("Assets/Bundles/fishingstuff/MinosPrimeBody.mat");
         matSwap1.layer = -1;
         matSwap1.ignoreLevels = new List<string>(new string[]{"Level P-2"});
+        fish.fishName = "Kadim Balık";
+        fish.description = "Çok güçlü bir ruhun yaydığı artık enerjiden oluşmuş olduğuna inanılan, son derece nadir bir balık.\n\nHer ne kadar kendisi büyük bir güce sahip olsa da, benzer yaratıkların bilinen o güçlü iradesinden yoksundur. Bununla birlikte melekler tarafından yasaklanmış sayıldığından, çoğu balıkçı bu balığı yakalamaya çalışmamanızı tavsiye eder.";
+        break;
+      case "Funny Stupid Fish (Friend)":
+        fish.fishName = "Şaklaban Salak Balık (Dost)";
+        fish.description = "Aptal bir balık. Gerçekten çok aptal bir balık. Gerizekalı. Enayinin önde gideni. Beceriksiz salak. Ama mizahı iyidir.\n\nYakalaması kolaydır ve dost canlısıdır, genelde çocuklara balık tutmayı öğretmek için kullanılır.";
+        break;
+      case "PITR Fish":
+        fish.fishName = "PITR Balığı";
+        fish.description = "Çok zeki bir balık. Kedilere hayran. Kıyıya yakın yüzer ve genelde balıkçıları mutlu etmek için kasten oltalarına takılır.\n\nBalık besin zincirinin hep en altındadır.";
+        break;
+      case "Trout":
+        fish.fishName = "Alabalık";
+        fish.description = "Gölde bulunan sıradan bir balık. Derinlikleri tercih eder.\n\nİnsanlar tarafından sevilen bir balık türü olsa gerek, bu balığa benzer maskelerin bile yapıldığı bilinir.";
+        break;
+      case "Metal Fish":
+        fish.fishName = "Metal Balık";
+        fish.description = "Uzak diyarlardan gelen göçmen bir balık. Beslenme türü taş olduğu için kayalık yerlerde hayatta kalabilir.\n\nSadece beslenmek için su yüzüne çıkar.";
+        break;
+      case "Chomper":
+        fish.fishName = "Isırgan";
+        fish.description = "Göçmen bir balık.\n\nPensilvanya'dan geldiği için tercihen nemli, karanlık ve mutsuz ortamlarda yaşar.";
+        break;
+      case "Bomb Fish":
+        fish.fishName = "Bomba Balığı";
+        fish.description = "Olağanüstü balıklardan. Genelde akarsuları tercih eder, duru sularda hayat kendisi için renksiz ve monotondur.\n\nDikkatsiz balıkçıların başına iş açacak kendini savunma yöntemi vardır.";
+        break;
+      case "Eyeball":
+        fish.fishName = "Gözbebeği";
+        fish.description = "Sıradan bir balık. Hayatta kalması için kana ihtiyaç duyar.\n\nGörme duyusunu güçlendirir.";
+        break;
+      case "Frog (?)":
+        fish.fishName = "Kurbağa (?)";
+        fish.description = "Derinliği seven göçmen bir balık. Genelde uydu gezegenlerde yaşar, fakat yeterince kanın olduğu her yerde bulunabilir.\n\nÇok bölgesel bir balık, derinliklerden kesinlikle ayrılmaz ve yaklaşanlara da saldırır.";
+        break;
+      case "Dope Fish":
+        fish.fishName = "Ciks Balık";
+        fish.description = "Göçmen balık. Her yerde bulunabilir, ama genelde Kuytu köşelerden çıkarılır.\n\nGenelde maceraperestlerin ve kahramanların yanlışlıkla rastladığı bir balık türü. İyi şans getirdiği söylenir.";
+        break;
+      case "Stickfish":
+        fish.fishName = "Balık Kroket";
+        fish.description = "Düz balık. Yenebilir ve genelde insanlar üretir.\n\nDünyadaki bütün mutfaklarda bulunabilir.";
+        break;
+      case "Cooked Fish":
+        fish.fishName = "Pişmiş Balık";
+        fish.description = "Sıradan bir balık. Ateşte yaşar. Çiğ balıkları yemek için yaşam alanından dışarı çıkabilir.\n\nMuazzam bir lezzete sahip olduğu söylenir. Balıkçılar bu balığı yakalayabilmek için farklı türde çiğ balıkları ateşe yaklaştırırlar.";
+        break;
+      case "Shark":
+        fish.fishName = "Köpek Balığı";
+        fish.description = "Etçil balık. İsveç'ten gelir ve insanlık için feminenliğin ya da 'alan taraf' olmanın bir sembolü haline gelmiştir, fakat bu sembolün tam anlamı artık bilinmiyor.\n\nGeniş sularda yaşamayı sever, ama beslenmek için kıyıya yaklaştığı da görülmüştür.";
+        break;
+      case "Filthy Screaming Fish (Filsh)":
+        fish.fishName = "Bağırgan Balık (Pislık)";
+        fish.description = "Balık formunda manifest olmuş lanetlenmiş bir ruh. Ruhu aşırı güçsüz ve önemsiz olduğu için bunlara Kabuk bile denemez. Yapabildikleri tek şey sinir bozucu bir şekilde bağırmaktır.\n\nÇoğu zaman et yığınlarının içinde bulunurlar. Yanlarında ki herkes gibi kıyma olmaya mahkumlar.";
+        break;
+      case "Scraphead Fish":
+        fish.fishName = "Hurdacı Balık";
+        fish.description = "Bir makinenin balıkla buluşmuş formu. Akrabalarının aksine yüksek riskli çatışmalara girmez. Çevresinin sağladığı daha düşük ve daha güvenli bir yerel optimumla yetinir.\n\nÇevresini kaplayan hurda parçalarını kullanarak kendini güçlendirir ve sürekli et veren kıyma makinesinden beslenir. Görünüşü çoğu kişiye çirkin olsa da işin meraklılarına göre güzel bir görünüşe sahiptir; bu da pek çok taklitçinin ortaya çıkmasına neden olmuştur.";
+        break;
+      case "Wire Shark":
+        fish.fishName = "Vâyırşark";
+        fish.description = "Son derece enerji saçan bir balık olan bu canlı, yoluna çıkan her türlü zararlı veriyi yutar. Diğer türlere kıyasla daha zekilerdir ve hedeflerine ulaşmak için her zaman en kısa yolu kullanırlar.\n\nYüksek voltajlı endüstriyel alanlarda görülmeleri normaldir.";
+        break;
+      case "Overcooked Fish":
+        fish.fishName = "Yanmış Balık";
+        fish.description = "Fazla görülmeyen bir balık. Çoğu zaman lezzetli sanılsa da aslında kötü tadından dolayı insanlar tarafından tercih edilmezler.\n\nBüyük ihtimalle etçiller. Sadece aşırı sıcak suların içinde yaşarlar.";
+        break;
+      case "Coin":
+        fish.fishName = "Sikke";
+        fish.description = "Nadir ve fazlasıyla değerli bir balık. Aşırı pahalı ve değerli varlıkların takaslarında kullanıldığına bakarsak; insanlar için çok önemli bir yeri var gibi gözüküyor.\n\nSöylenene göre bir sikkeyi doğal yaşam alanına döndürürseniz sizin dileklerinizi gerçekleştirir.";
+        break;
+      case "Cancerous Fish":
+        fish.fishName = "Kanserojen Balık";
+        fish.description = "Mutasyona uğramış bir balık. Ağzından çıkan her kelimenin siyasetle alakalı olmasıyla ünlüdür. Hatta 1960'ların sonlarında Solcu ve Sağcı kavgasını başlattığı söylenir.\n\nSadece radyasyona mağruz kalmış suların içinde bulunur.";
+        break;
+      case "Flying Demon Fish":
+        fish.fishName = "Kanatlı İblis Balığı";
+        fish.description = "Tanrı'nın kendisine bir hakaret. O kadar iğrenç bir yaratık ki ne altındaki toprak, ne de üstündeki gökler onu kabul ediyor. Bu yüzden ikisi arasındaki soğuk ve acımasız rüzgârların ortasında savrulmaya mahkûm kalmış. Bu yaratık kendi yaratıcısı o iğrenç görünüşünden tiksindiği için bu azaba mahkûm edildiğine inanılıyor.\n\nAncak bu balık, yerli halk arasında bir lezzet olarak görülüyor. Cesur balıkçılar, genellikle yüksek rakımlı kayalıkların yakınlarında bu balığı yakalamak için hayatlarını tehlikeye atmaktadırlar.";
+        break;
+      case "Vapor Fish":
+        fish.fishName = "Vapor Balığı";
+        fish.description = "Teknoloji ile eski kültürün etkileşimi sonucu ortaya çıkan sentetik bir balık. Ancak geçmişe dair algısı yanlış ve çarpıktır.\n\nNeredeyse hiç balık bulunmayan bir şehrin kanallarında rastlanabilir; burada, eski kültürü bizzat deneyimleme fırsatı bulamamış, ancak yine de ona karşı bir özlem duyan sakinlerin dikkatini çeker.   ";
+        break;
+      case "Plastic Fish":
+        fish.fishName = "Plastik Balık";
+        fish.description = "Son derece nadir görülen, balık benzeri bir makine. Vücudunun büyük bir kısmı makinenin kendisi tarafından oluşturulan, ancak hiçbir pratik işlevi olmayan balık şeklindeki plastik bir kabuktan oluşur. Bu tür makinelerin çok azı bu standart dışı şekli tercih eder; ancak bu durum, saldırganlığa dair önemli bir azalma ile ilişkili olduğu görünmektedir.\n\nDoğası gereği çoğunlukla sakin bir hayvandır ve kanalizasyonlar da dahil olmak üzere binaların gözden uzak, ıssız bölgelerini tercih eder.";
+        break;
+      case "Koi Fish":
+        fish.fishName = "Aynalı Sazan Balığı";
+        fish.description = "Fazla görülmeyen bir balık. Efsaneye göre, bu balık bir şelaleyi yüzerek tırmanmayı başarırsa ejderhaya dönüşür. Lakin, ejderhalar gerçek olmadığı için bu imkansızdır.\n\nGöletlerde yüzmeyi sever. Hoşuna giden bir gölet bulursa, seçtiği o gölette 10 yıla kadar kalabilir.";
+        break;
+      case "Melted Fish":
+        fish.fishName = "Erimiş Balık";
+        fish.description = "Tuhaf bir görünüme sahip, son derece nadir bir balık.\n\nBu balığın nereden geldiği bilinmemektedir. Zira şimdiye kadar yalnızca kendisinden daha büyük hayvanların midelerinde bulunmuştur.";
+        break;
+      case "Ancient Fish":
+        fish.fishName = "Antik Balık";
+        fish.description = "Yaşadığı son derece zorlu ortam nedeniyle ortaya çıkan, insan yapımı bir balık. Efsanelere göre üzerine oyulmuş yazıtlar, çevresindeki anıtların yapım sürecini anlatıyor.\n\nKaynar suyu tercih eder.";
+        break;
+      case "Nerd Shark":
+        fish.fishName = "İnek Köpek Balığı";
+        fish.description = "Son derece okur yazar bir balık. Çok zeki. Yalnızca en seçkin edebi eserleri okur.\n\nKocaman su kütlelerinde yaşar ve dışarı çıkmaktan kaçınır; ancak daha fazla bilgelik arama acamıyla bazen kıyıya yakın yüzebilir.";
+        break;
+      case "Eel (?)":
+        fish.fishName = "Yılanbalığı (?)";
+        fish.description = "Dış görünüşü sert olan tuhaf bir yılanbalığı. Öfkeli tavırları nedeniyle acemi balıkçılar için aşırı tehlikeli bir türdür.\n\nBazen gemi enkazlarının yakınlarındago rastlanır.";
+        break;
+      case "Mannequin Fish":
+        fish.fishName = "Manken Balığı";
+        fish.description = "";
+        break;
+      case "Tasty Fish":
+        fish.fishName = "Leziz Balık";
+        fish.description = "Makineler arasında bir lezzet. Biyolojik yapısı nedeniyle doğal yaşam alanı dışında uzun süre hayatta kalamaz. Büyük rağbet gören bu balığı yetiştiren pek çok kişi vardır, ancak yetiştirenler genellikle şiddet eğilimli çatlak hırsızlarla çatışmaktadır.\n\nGenellikle geldiği yerin yakınlarında yüzerken görülmüştür.";
+        break;
+      case "Frozen Fish":
+        fish.fishName = "Dondurulmuş Balık";
+        fish.description = "Uzun ömürlü bir balık. Uzun süre çürümeden hayatta kalabilme konusundaki gizemli yeteneğiyle ün kazanmıştır.\n\nSadece aşırı soğuk sularda yaşar.";
+        break;
+      case "Metal(?) Fish":
+        fish.fishName = "Metal(?) Balık";
+        fish.description = "Metalden yapılmış bir göçmen balık.\n\nCehennemde yaşayan sapkın bir tür; başkalarının acı çekmesini izlemekten zevk alır. Dünyanın en acımasız balığı unvanı için en güçlü adaylardan biri.";
+        break;
+      case "\"size 2\"":
+        fish.fishName = "\"boyut 2\"";
+        fish.description = "Bir yalan. Tam bir sahtekarlık. Balıkçıları çılgına çevirmek için uydurulmuş bir aldatmaca. Birçoğu bu değersiz şeyi ararken boşuna canlarını kaybetti.\n\n<b><color=red>O L A N L A R D A N   M E M N U N   M U S U N</color></b>";
         break;
     }
     return fish;
@@ -147,27 +277,27 @@ public static class GlobalFishManager {
     switch (fish.fishName) {
       case "null":
         return """"
-An ordinary and very real fish. Native to the beautiful paradise known as Limbo.
+Kesinlikle normal ve gerçek bir balık. Araf denen cennetin sakinlerinden.
 
-Usually found where the water falls.
+Genellikle şelalenin altında yaşarlar.
 """";
       case "NaN":
         return """"
-A local delicacy, enjoyed by the happy residents of the peaceful Limbo layer.
+Huzurlu Araf katmanının mutlu sakinlerinin severek tükettiği yerel bir lezzet.
 
-Usually found where the water pools.
+Genellikle suyun biriktiği yerlerde bulunur.
 """";
       case "Nil":
         return """"
-A very normal fish. You could find similar fish to this one anywhere. Resides in the idyllic and luxurious Limbo layer.
+Aşırı normal bir balık. Buna benzer balıkları her yerde bulabilirsin. Cennet gibi ve lüks Araf katmanında yaşar.
 
-Usually found where the water flows.
+Genellikle suyun aktığı yerlerde bulunur.
 """";
       case "\"size 2\"":
         return """"
-The legendary fish. The dream of all fishers, yet none have ever caught it. It is said to only appear to expert fishers who have caught every kind of fish.
+Herkesin bahsettiği efsanevi balık. Tüm balıkçıların hayali ama henüz kimse onu yakalayamadı. Söylendiğine göre, sadece her tür balığı yakalamış usta balıkçılara görünür.
 
-The waterfall conceals the water UPS. Agnes Gorge Trail. Use your ability and fulfill your destiny.
+Şelale, sukarıyı gizliyor. Agnes Gorge Yolu. Yeteneklerini kullan ve kaderini yerine getir.
 """";
       default:
         return fish.description;

@@ -13,9 +13,9 @@ namespace UltraFishing;
 
 [BepInPlugin(PLUGIN_GUID, PLUGIN_NAME, PLUGIN_VERSION)]
 public class Plugin : BaseUnityPlugin {	
-  public const string PLUGIN_GUID = "com.earthlingOnFire.UltraFishing";
-  public const string PLUGIN_NAME = "UltraFishing";
-  public const string PLUGIN_VERSION = "2.0.0";
+  public const string PLUGIN_GUID = "com.UltraTurk.UltraBalikci";
+  public const string PLUGIN_NAME = "UltraBalikci";
+  public const string PLUGIN_VERSION = "2.1.0";
   public static AssetBundle bundle;
   public static ManualLogSource logger;
   public static string modDir;
@@ -40,7 +40,7 @@ public class Plugin : BaseUnityPlugin {
     int renderQueue = mat.renderQueue;
     Shader shader2 = mat.shader;
     if (Shader.Find(shader2.name) != null) {
-      if (mat.shader.name != "Standard") {
+      if (mat.shader.name != "Standart") {
         mat.shader = Shader.Find(shader2.name);
       }
       else {

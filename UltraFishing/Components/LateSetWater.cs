@@ -5,7 +5,7 @@ namespace UltraFishing;
 public class LateSetWater : MonoBehaviour {
 
   public List<string> Fish = new List<string>();
-  public string WaterName = "ERROR: NAME UNASSIGNED";
+  public string WaterName = "HATA: İSİM ATANMAMIŞ";
   public Color color = Color.magenta;
   public List<Transform> Water = new List<Transform>();
   private bool triggered = false;

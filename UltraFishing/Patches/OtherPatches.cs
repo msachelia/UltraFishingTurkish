@@ -45,7 +45,7 @@ public static class OtherPatches {
     if (fishRef == null) return;
     FishObject fish = fishRef.fishObject;
     switch (fish.fishName) {
-      case "Coin":
+      case "Sikke":
         GameObject coin = __instance.transform.Find("Coin").gameObject;
         Camera cam = CameraController.Instance.GetComponent<Camera>();
         GameObject camObj = cam.gameObject;
@@ -62,7 +62,7 @@ public static class OtherPatches {
 
         GameObject.Destroy(__instance.gameObject);
         break;
-      case "Flying Demon Fish":
+      case "Kanatlı İblis Balığı":
         GameObject proj = Plugin.bundle.LoadAsset<GameObject>("assets/bundles/fishingstuff/projectiles/flying demon fish/projectile.prefab");
         Object.Instantiate(proj, NewMovement.Instance.transform.position, CameraController.Instance.transform.rotation);
 

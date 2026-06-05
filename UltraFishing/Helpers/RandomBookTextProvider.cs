@@ -21,54 +21,56 @@ public static class RandomBookTextProvider {
     return texts[currentText];
   }
 
-  private static string creditsText = 
+  private static string creditsText =
 """"
-Congratulations on finding the secret <color=blue>ULTRAFISHING</color> credits book! 
+Aşırı gizli <color=blue>ULTRABALIKÇI</color> katkısı bulunanlar kitabını bulduğun için teşekkürler!
 
-Someone told me it'd be cool to have something like this in the dev museum, so thanks for the idea.
+Biri bana geliştirici müzesinde böyle bir şeyin olması harika olur dedi, bu yüzden fikir için teşekkürler.
 
-<b><color=orange>earthling on fire</color> - ORIGINAL CREATOR OF <color=blue>ULTRAFISHING</color></b>
+<b><color=orange>earthling on fire</color> - <color=blue>ULTRAFISHING</color>'in orijinal yapımcısı</b>
 
-This mod took a very long time to make, and development went on hiatus multiple times. But somehow, I managed to release it.
+Bu modu yapmam baya vakit aldı ve çoğu zamanda geliştirmeye ara vermek zorunda kaldım. Fakat, öyle böyle bir şekilde gene de yayınlamayı başardım.
 
-I learned a ton while working on this project and did a ton of stuff outside my usual "comfort zone". But most importantly, I had fun making it, and I hope you had fun playing it too.
+Bu proje üzerinde çalışırken çok şey öğrendim ve her zamanki "rahatlık alanımın" dışında pek çok şey yaptım. Ama en önemlisi, bu modu yaparken çok eğlendim ve umarım oynarken sizler de eğlenirsiniz.
 
-My contributions include:
+Benim katkılarım şöyle:
 <size=18>
-- Every custom fish in release 1.0.
-- The fishing rod icon.
-- Most of the code that makes this mod work.
+- Orijinal modun 1.0.0 sürümüne kadar olan tüm özel balıklar.
+- Olta simgesi.
+- Bu modun çalışmasını sağlayan çoğu kod.
 </size>
-<color=orange><i>"i only say morning because if it were a good morning i'd be fishing"</i></color>
+<color=orange><i>"bugün hayırsız bir gün çünkü hayırlı olsaydı balık tutuyor olurdum"</i></color>
 
-<b><color=green>Draghtnim</color> - DEVELOPER</b>
+<b><color=green>Draghtnim</color> - GELİŞTİRİCİ</b>
 
-Draghtnim joined development shortly after the initial release of the mod. He didn't like how the melted fish looked like, so he made his own revamped version and sent it to me. After that, he just started making new fishes for the mod and before I knew it he was a proper developer on the mod. 
+Draghtnim ekibe modu yayınladıktan kısa süre sonra katıldı. İlk başta erimiş balığın görünümü sevmediği için bana yenilenmiş bir halini göndermişti. Ondan sonra keyfine göre balıklar yapmaya başladı ve bir baktım artık geliştirici olmuş.
 
-Unlike me, he has a ton of experience with Rude editor, so if you see anything that looks good, it was probably made by him. 
+Bana kıyasla Rude Editor'le olan deneyimi daha fazlaydı. Yani eğer aşırı iyi bir şey görürseniz; büyük ihtimalle onun marifetidir. 
 
-Also make sure to check out his mods as well. Did you know <color=red>deltaKILL</color> is compatible with <color=blue>ULTRAFISHING</color>?
+Onun modlarını da oynamayı unutmayın. <color=red>deltaKILL</color>'in <color=blue>ULTRAFISHING</color> ile uyumlu olduğunu biliyor muydunuz?
 
-His contributions include:
+Onun katkıları şöyle:
 <size=18>
-- Every custom fish for release 2.0.
-- The revamped versions of the older fishes and some revamped icons.
-- Anything that has to do with shaders, including fixing the visual bugs of the initial release.
-- The fishing rod draw animation.
-- A ton of fishing spots.
-- Some of the programming.
+- Orijinal modun 2.0.0 sürümüne kadar olan tüm özel balıklar.
+- Yenilenmiş balıklar ve simgeleri.
+- Gölgelendirmelere dair her şey. Ayrıca, modun ilk çıkışında olan görüntüsel hataların çoğu onun sayesinde düzeltildi.
+- Oltayı eline alma animasyonu
+- Bir sürü balık avlama yeri.
+- Biraz da programlama.
 </size>
-<color=green><i>"how in the fuck did I develop half the fish I was just annoyed about the melted fish"</i></color>
+<color=green><i>"bi balık yeniliyecez diye geldik tüm modu yeniden yaptık amına koyim"</i></color>
 
-<b>SPECIAL THANKS</b>
+<b>ÖZEL TEŞEKKÜRKLER</b>
 
-COOL PEOPLE ON DISCORD - advice, feedback and suggestions
+DİSCORD'DAKİ DOSTANİ İNSANLAR - tavsiye, geri dönüş ve öneriler
 
-POOT MAN - playtesting
+ACHELIA - türkçe çeviri
 
-PITR - really robust fishing code that was surprisingly easy to work with
+POOT MAN - modu test etme
 
-HAKITA - cool game i guess
+PITR - çalışması şaşırtıcı derecede kolay olan, gerçekten sağlam bir balıkçılık sistemi
+
+HAKITA - güzel oyun yapmış
 """";
 
   private static string[] texts = new string[] {
@@ -80,436 +82,436 @@ HAKITA - cool game i guess
 
 
 
-<align=center>You caught Fish!!
+<align=center>Balık yakaladın!!
 
 
 <><
 
 
-<b>SIZE: 1</b></align>
-"""", 
-""""
-<align=center><b>QUOTE OF THE DAY:</b>
-
-
-"i only say morning because if it were a good morning i'd be fishing" 
-- local fishing enthusiast</align>
+<b>BOYUT: 1</b></align>
 """",
 """"
-<align=center><b>TIP OF THE DAY:</b>
+<align=center><b>GÜNÜN SÖZÜ:</b>
 
 
-"The waterfall conceals the water UPS. Agnes Gorge Trail. Use your ability."
+"bugün hayırsız bir gün çünkü hayırlı olsaydı balık tutuyor olurdum" 
+- yerel balıkçılık meraklısı</align>
 """",
 """"
-<align="center"><b>TESTAMENT IV
+<align=center><b>GÜNÜN TÜYOSU:</b>
 
 
-"FATHER, WHY ETERNAL TORMENT? IS IT NOT CRUEL?
-IS TORTURE UNENDING TRULY A FATE FIT FOR A FOOL?"
-
-
-AN ANGEL SO BRIGHT AND BEAUTIFUL ASKED ME THIS... 
-AND I COULD FIND NO ANSWER
-FOR I COULD NEVER FACE THE GUILT OF WHAT I'D DONE...
-MY REGRET, A GNAWING CANCER
-
-
-IN MY HOUR OF WEAKNESS, TERROR POSSESSED ME THEN
-AND I CAST LUCIFER, TOO, INTO THE INFERNAL DEN
-
-
-ONCE I REALIZED WHAT I HAD JUST DONE...
-I COULD ONLY WEEP
-AS I SANK SLOWLY INTO DEPTHS OF DESPAIR...
-DEEP, OH SO DEEP</b></align>
+"Şelale yolu gizliyor. Agnes Gorge Yolu. Yeteneklerini kullan."
 """",
 """"
-If you can read this, please help. I've been stranded on an island off the shore for weeks now, and I'm running out of supplies.
+<align="center"><b>VASİYETNAME IV
 
 
-I was drawn to ride the waves in hopes of finding the legendary size 2 fish. I had combed every inch of land and lake with no avail.
+"BABA, NEDEN EBEDÎ AZAP? ZALİMLİK DEĞİL Mİ BU?
+BİTMEK BİLMEYEN İŞKENCE, GERÇEKTEN BİR AHMAĞA LAYIK BİR KADER Mİ?"
 
 
-I deduced that they must exist far out at sea, so I set sail with a month's worth of cooked fish, but the waves sank my ship before I could find anything.
+ÇOK PARLAK VE GÜZEL BİR MELEK SORDU BUNU BANA... 
+VE BEN HİÇBİR CEVAP BULAMADIM
+ÇÜNKÜ YAPTIĞIMIN VEBALİYLE ASLA YÜZLEŞEMEZDİM...
+PİŞMANLIĞIM, İÇİMİ KEMİREN BİR KANSERDİ
 
 
-You're my last hope.
+ZAYIFLIK ANIMDA, DEHŞET BENİ ELE GEÇİRDİ
+VE LUCIFER'I DA O CEHENNEMİN İÇİNE ATTIM
 
 
-Set sail towards the big dipper, you will find me on an island there. Bring me more fish and then leave so I may continue my search.
-
-
-THE SIZE 2 FISH IS MINE.
+AZ ÖNCE NE YAPTIĞIMI ANLADIĞIMDA...
+ELİMDEN YALNIZCA AĞLAMAK GELDİ
+UMUTSUZLUĞUN DERİNLİKLERİNE DOĞRU YAVAŞÇA BATTIKÇA...
+DERİNE, ÇOK DERİNE</b></align>
 """",
 """"
-<size=20>ive figured it out. i know why the creatures are suddenly  and undetectably appe
-aring inside our facilities. i know why spare parts and pieces of machines keep 
-disappearing. i know why the doors seem to malfunction and suddenly lock themsel
-ves. its not a glitch in the system. its...                                     
-                                                                                
-                                                                                
-    hell is alive. it breathes. it thinks. the entire area is a massive intellig
-ent superorganism and it is harsh and it is cruel. just by watching us it has le
-arned how our systems and machines work. it has not only begun to deconstruct ou
-r technology but also reassemble it in perverse ways, attaching parts to the cre
-atures it tortures, making them into an aimless army of death and destruction. i
-t warps them across itself to get them past our security. it locks our doors to 
-trap us with them.                                                              
-                                                                                
-                                                                                
-    this is not an attack. this is not a defence. this is entertainment. this is
- an exhibition of death and cruelty and suffering for its own sake. it had grown
- tired of what it had and we unwillingly just offered ourselves up as new playth
-ings.                                                                           
-                                                                                
-                                                                                
-    tom please for the love of god cancel this project immediately, we have to a
-bandon everything and seal this place away. leave the machines and tools behind.
- evacuate as many as we can, before it is too late.                             
-                                                                                
-                                                                                
-    i can only hope this encrypted message is received before the organism learn
-s to read it and intercept it. whatever happens, we can not let this being find 
-a way out and spread to the surface. we ha                                      
-                                                                                
-                                                                                
-                                                                                
-                                                                                
-                                                                                
-                                                                                
-                                                                                
-                                                                                
-                                                                                
-                                                                                
-<b><color="red">a n o t h e r   d i e s .   b r i n g   m e   m o r e .   i   h u n g e r
+Eğer bu mesajı okuyorsanız, lütfen yardım edin. Haftalardır kıyı açıklarındaki bir adada mahsur kaldım ve erzağım bitmek üzere.
+
+
+Efsanevi boyut 2 balığı bulma umudu ile sefere çıktım. Bu adanın her karış toprağını ve su birikintisini taradıysam da nafile.
+
+
+Sonuçta denizin uç noktalarında var olduklarına kanaat ettim ve yanıma bir aylık pişmiş balık alıp denizlere açıldım. Fakat bir şey bulana kadar gemimi dalgalara kaybettim.
+
+
+Sen benim son umudumsun.
+
+
+Büyük Kepçe'ye doğru yelken aç, beni orada bir adada bulacaksın. Bana biraz daha balık getir ve sonra git ki araştırmama devam edebileyim.
+
+
+BOYUT 2 BALIK BENİM OLACAK.
 """",
 """"
-<b>EXCERPT FROM THE DIARY OF "THE PRETTIEST GIRL IN TOWN"</b>
+<size=20>olayı çözdüm. neden yaratıkların aniden ve tespit edilemez şekilde te
+sislerimizde belirdiğini biliyorum. neden yedek parçalar ve makinelerden parça
+ların kaybolduğunu biliyorum. neden kapıların aniden bozulduğunu ve kilitlendi
+ğini biliyorum. nedeni sistemsel bir hata değil. nedeni...                                     
+                                                                                
+                                                                                
+    cehennem yaşıyor. nefes alıyor. düşünüyor. bütün bu bölge devasa, zeki bir
+süperorganizma ve acımasız, zalim. sadece bizi izleyerek sistemlerimizin ve maki
+nelerimizin nasıl çalıştığını öğrendi. teknolojimizi sadece parçalamakla kalmadı
+aynı zamanda onu sapkın şekillerde yeniden bir araya getirerek, işkence ettiği ya
+ratıklara parçalar ekledi ve onları amaçsız bir ölüm ve yıkım ordusuna dönüştürdü.
+onları kendi içinden geçirerek güvenlik sistemimizi aşmalarını sağlıyor. kapıları
+mızı kilitleyerek bizi onlarla birlikte kapana kıstırıyor.                                                              
+                                                                                
+                                                                                
+    bu bir saldırı değil. ne de bir savunma. bu onun için eğlence. sırf kendi can
+sıkıntısı gidermek için düzenlenen bir ölüm, zulüm ve ıstırap sergisi. elinde olan
+şeylerden bıkmıştı ve biz de farkında olmadan kendimizi yeni oyuncaklar olarak
+sunduk.                                                                           
+                                                                                
+                                                                                
+    tom lütfen tanrı aşkına bu projeyi derhal iptal et her şeyi bir kenara bırakıp
+burayı mühürlemeliyiz. makineleri ve aletleri geride bırak gitsin önemli değiller.
+çok geç olmadan elinden geldiğince çok kişiyi tahliye et ve oradan çık.                             
+                                                                                
+                                                                                
+    bu şifreli mesajın o organizma okumayı öğrenip ele geçirmeden önce ulaşmasını
+ummaktan başka çarem yok. ne olursa olsun yer yüzüne ulaşmasına ve yayılmasına izin
+vermemeliyiz. yapmamız gere-                                      
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+<b><color="red">b i r i s i   g i d e r .   y e n i s i   g e l i r .   a ç ı m .
+"""",
+""""
+<b>"ŞEHİRDEKİ EN GÜZEL KIZIN" GÜNLÜĞÜNDEN BİR ALINTI</b>
 
-The human mind, in its complete vastness, is capable of recognizing its utter helplessness and uselessness in the face of inevitable and unavoidable non-existence, but is incapable of coming to terms with it.
+İnsan zihni, o sınırsız kapasitesine rağmen, kaçınılmaz ve engellenemez bir 'yok oluş' karşısındaki çaresizliğini anlayabilir; ancak bunu kabullenmeyi asla beceremez.
 
-We can only ever ignore it, hide from it or temporarily escape from it, but the fact is that we are bound to the way of all things.
+Bunu sadece görmezden gelebilir, saklanabilir ya da geçici olarak kaçabiliriz; ama gerçek şu ki, eninde sonunda her şeyin tabi olduğu o mutlak sona mahkumuz.
 
-Death is unavoidable, not only to us, but all that exists or ever has existed. Every living being will eventually die out. Every speck of matter will eventually wither away and dissipate into entropy.
+Ölüm kaçınılmazdır; sadece bizim için değil, var olan veya bugüne dek var olmuş her şey için. Her yaşayan varlık bir gün ölecektir. Her madde er ya da geç yitip gidecek ve entropiye dağılacak.
 
-It doesn't matter if you lived a good life or if you left a legacy behind. It doesn't matter if humanity survives for a thousand years or dies out tomorrow. The end result is the same: the absolute nothing.
+İyi bir hayat yaşamış olmanın ya da geride bir miras bırakmanın hiçbir anlamı yok. İnsanlığın bin yıl daha yaşamasıyla yarın yok olması arasında bir fark yok. Sonuç hep aynı: mutlak son.
 
-Human intelligence is far beyond that of other animals, but it would be misguided to consider that a gift. <All other beings have the gift of ignorance, of not understanding what we do.
+İnsan zekası diğer hayvanların çok ama çok ötesinde ama bunu bir 'lütuf' olarak saymak büyük bir yanılgı olur. Diğer tüm varlıklar bizim yaptıklarımızı anlamama, yani o kutsal 'cehalet lütfu'na sahipler.
 
-Our intelligence is not a gift. It's a flaw.
+Bizim bilincimiz bir lütuf falan değil. Bu sadece bir kusur.
 
-It's an over-extension of evolution. Intelligence, once a great feature in aeons past, continued to grow unchecked and unfiltered, and has since passed a threshold whereupon it is no longer a benefit, but an active danger to its host.
+Bu evrimin gereksiz bir abartısıdır. Çağlar öncesinde harika bir özellik olan bu bilinç, kontrolsüz ve düzensiz bir şekilde büyümeye devam etti ve öyle bir eşiği geçti ki, artık sahibine bir fayda sağlamak yerine aktif bir tehlike arz ediyor.
 
-Much like the Irish elk, a species of deer that, through uncountable generations of evolution, grew antlers so wide and vast that it could no longer run from predators, eventually leading to extinction.
+Tıpkı İrlanda geyiği gibi... Sayısız jenerasyon boyunca süren evrimle boynuzları o kadar geniş ve devasa bir hale geldi ki, artık avcılardan kaçamaz oldu ve bu durum, en sonunda soylarının tükenmesine yol açtı.
 
-The human mind is an evolutionary maladaptation caused by going too far in one direction that was once beneficial and will, sooner or later, lead to our extinction. On an individual level, it's already happening.
+İnsan zihni; başlangıçta fayda sağlayan ancak tek bir yönde kontrolsüzce ilerlemesi sonucu eninde sonunda yok oluşumuza yol açacak olan evrimsel bir uyum bozukluğudur. Bireysel düzeyde bu gerçekleşmeye başladı bile.
 
-Existential dread is already taking hold. I'm sure you've felt it too. The pain and fear of being nothing, becoming nothing. The suffering of understanding that.
+Varoluşsal kaygılar çoktan kök saldı. Senin de hissettiğine eminim. Bir 'hiç' olmanın, 'hiçliğe' dönüşmenin verdiği o sancıyı ve korkuyu... Bunu fark etmiş olmanın yarattığı o ızdırabı.
 
-We are unable to come to terms with it, so we hide from our own intelligence. We set limits. We stop ourselves from thinking deeply about what will happen when we die.
+Bunu kabullenemediğimiz için kendi bilincimizden saklanıyoruz. Sınırlar çiziyoruz. Öldüğümüzde ne olacağı hakkında fazla düşünmemeye çalışıyoruz.
 
-We create distractions. We keep our minds busy with mundane activities and entertainment to stop ourselves from having to come face-to-face with the truth.
+Oyalanıyoruz. Zihnimizi sıradan aktivitelerle, eğlencelerle meşgul tutuyoruz ki gerçekle yüz yüze gelmeyelim.
 
-We sublimate it. We transform our self-reflective suffering into another form, art, to keep it from consuming us. Anything to avoid the panic.
+Dindiriyoruz. Bizi yiyip bitirmesini engellemek için öz-düşünümden doğan bu ızdırabı sanata dönüştürüyoruz. Yeter ki korkmayalım.
 
-But these ways are all simply temporary. They’re just there to push back the inevitable veil of helplessness and despair that would encompass and ruin us.
+Ama tüm bu yöntemlerin hepsi geçici. Sadece bizi mahvedecek olan o kaçınılmaz çaresizlik ve umutsuzluk perdesini biraz daha uzağa itmek için varlar.
 
-In the end, nothing matters. There's no point in trying to find joy in life, for life in and of itself is suffering.
+Sonuçta, hiçbir şeyin önemi yok. Hayatta mutluluk aramanın anlamı yok. Çünkü hayatın kendisi, doğası gereği ızdıraptır.
 
 """",
 """"
-Disgrace. Humiliation. Unseemly and unwelcome at the feet of The Council. Their eyes ablaze with bitter resentment, glaring through Gabriel's wounds of body and soul, bore outward for all to see.
+Utanç. Aşağılanma. Konsey'in önünde yakışıksız ve istenmeyen biri. Gözleri acı bir hınçla alev alev yanıyor; Gabriel'in bedenindeki ve ruhundaki yaraları içine işliyor, herkes görsün diye dışa taşıyordu.
 
-"Has this one abandoned the way of our creator?" "It is unworthy of its Holy Light." "The Father's Light is indomitable." "This one sees fit to squander it."
+"Bu zat, yaratıcımızın yolundan mı saptı?" "O, artık Kutsal Işığa layık değil." "Tanrı'nın Işığı kimseye boyun eğmez." "Ama bu zat ise onu heba etmeyi kendine layık görüyor."
 
-Their words resonated in Gabriel's limbs, coursing through as lightning upon wire, a searing hiss that would strike lessers deaf and blind. The Holy Light within him, an unstoppable storm of divine fury. Insurmountable for mere Objects. This he knew.
+Sözleri Gabriel'in içinde yankılandı... Yere inen bir yıldırım gibi akıp giden, aşağılık varlıkları sağır ve kör edecek bir yankı. İçindeki Kutsal Işık, ilahi gazabın durdurulamaz gücüydü. Sıradan nesneler tarafından aşılamazdı. Bunu biliyordu.
 
-"Holy Council, my devotion to our creator is absolute. I have never strayed from the will of The Father, but a machine—"
+"Kutsal Konsey, yaratıcımıza olan bağlılığım mutlaktır. Tanrı'nın iradesinden asla sapmadım, fakat bir makine-"
 
-"You dare imply the might of The Father could be shaken by mere objects?"
-"Impossible." "Heresy." "Unspeakable." "Heresy." "Heresy." "Silence."
-"Your treachery will not be tolerated. As punishment, The Father's Light shall be severed from your body. You have 24 hours before the last of its embers die out."
-"And you with them." "Prove your loyalty." "Unmake your mistakes."
+"Tanrı'nın kudretinin sıradan nesneler tarafından sarsılabileceğini mi ima etmeye çalışıyorsun?"
+"İmkansız." "Sapkınlık." "Hadsiz." "Sapkınlık." "Sapkınlık." *Konsey Hararetlenir* "Sessizlik."
+"İhanetine göz yumulmayacak. Ceza olarak, Tanrı'nın Işığı bedeninden koparılacak." "Işığının son közleri sönmeden önce 24 saatin var."
+"Ve o közlerle birlikte sen de söneceksin." "Sadakatini kanıtla." "Hatalarını düzelt."
 
-As the Light was ripped from his being, Gabriel's screams were silenced in the hiss of gospel in praise of God. A boiling anguish to which even the fires of Hell could not compare. Through the blaze of torment a single burning hatred was forged anew.
+Işık varlığından sökülüp alınırken, Gabriel'in çığlıkları Tanrı'yı yücelten ilahi seslerin içinde kayboldu. Cehennem'in alevlerinin bile yanında soğuk kalacağı kaynayan bir ızdırap. Azap alevlerinin içinde, yanıcı bir nefret oluşmuştu.
 
-If the machines seek blood, he would give it freely;
-and with such fury, even metal will bleed.
+Makineler kan istiyorsa, istedikleri şeyi seve seve verecekti...
+ve öyle bir öfkeyle verecekti ki, metal bile kanayacaktı.
 
-<b>TO BE CONTINUED IN... <color="red">ACT II: IMPERFECT HATRED</b>
+<b>DEVAMI... <color="red">2. PERDE: KUSURLU NEFRET</b>
 """",
 """"
-Silence. Introspection. How many had he killed? Had he ever thought to count? How much cruelty did he embody... and to what end? How many did he condemn to hell and who did it benefit...?
-Two defeats at the hand of the machine had changed Gabriel. The world of the once supposed Will of God was now shattered and only he was left to put the pieces back together. They collected before the light of a dying fire that fresh fuel couldn't sustain, this new light showing the truth to Gabriel:
-The pieces never fit together to begin with.
+Sessizliğe gömüldü. İnzivaya çekilmişti. Kaç kişiyi öldürmüştü? Hiç saymayı aklından geçirmiş miydi ki? Kaç yıl boyunca "zalimlik" lekesini taşımıştı... ve ne uğruna? Kaç kişiyi Cehennem'e mahkûm etmişti... ve bunun kime faydası olmuştu..?
+Makine'ye karşı olan ikinci mağlubiyeti Gabriel'i değiştirmişti. Bir zamanlar Tanrı'nın İradesi olan Gabriel'in dünyası artık paramparçaydı ve parçaları yeniden bir araya getirmek onun göreviydi. Bu parçalar, sonsuz bir yakıtın bile sürdüremediği ateşin önünde toplandı; bu yeni ışık Gabriel'e gerçeği gösteriyordu:
+Parçalar en başından beri birbirine uymuyordu.
 
-The supposed Council of "the people" who boasted a God that wasn't there. Gone. Vanished. The Council still chased after the light of God's fire, their memory of its words and will grown twisted and warped, and the rest of the aimless masses of Heaven follow in their footsteps. The angels still act in The Father's name but His kingdom has changed.
-Now the fire was dying, sputtering out as the heat failed to gain purchase. Gabriel looked upon the embers with a perfect clarity. He drew his blade and held it in contrast to the dying light.
-In its reflection he saw a weapon reborn, no longer wielded by the will of another, but his own. He knew words alone would never sway the masses. He chose to do something drastic.
+Konsey hâlâ Tanrı'nın ateşinin ve ışığının peşinden koşuyordu. Cennet'in halkı da onların izinden gidiyordu. Gabriel'in, O'nun sözlerine ve iradesine dair anıları çarpılmış, bozulmuş bir hâl almıştı. Melekler hâlâ Tanrı'nın adıyla hareket ediyordu, fakat O'nun krallığı değişmişti.
+Ateş yavaş yavaş sönüyordu; ısısı tutunacak bir yer bulamadıkça cılız cılız tütüyordu. Gabriel közlere kusursuz bir berraklıkla baktı. Kılıcını çekti ve onu ölmekte olan ışığın karşısında tuttu.
+Yansımasında yeniden doğmuş bir silah gördü; artık bir başkasının iradesiyle değil, kendi iradesiyle kullanılan bir silah. Yalnızca sözlerin halkı asla ikna edemeyeceğini biliyordu. O da sorunu kökünden çözmeyi seçti.
+Olmayan bir Tanrı'yla övünen, sözde "halkın" konseyi. Ama 'O' gitmişti. Yok olmuştu.
 
-Death stains the auditorium. The littered corpses of the once mighty council now strewn against its surfaces, their last gasps of life dripping down the dissident blade of Gabriel's sword.
-The last councilor, now backed up to a wall, scrambles for words between panicked breaths as death approaches with measured steps.
-"W-wait! Y-you can't do this! Our status forbids it! This is treason, heresy, murder! We are the supreme authority, our law commands you!"
-"You command nothing. Your words hold no power over me, or anyone else. Lest you truly believe you can talk my blade back into its sheath."
-"B-but the people are on our side! The citizens of heaven know that we are just!"
-"The masses only follow you out of fear and desperation. I will show them that there is nothing to be afraid of, for there is no species nor origin, vested rank or holy status that will stop the sharp edge of a sword.
-We all bleed the same blood, and the cushions of your thrones have made you weak and impotent."
-"P-please, Gabriel, see reason! The council follows the will of The Father! You seek to go against our creato—"
-"Face it, brother. God Is Dead. The fire is gone. You're chasing phantoms."
+Oditoryum, ölüm kokuyordu. Bir zamanların Kudretli Konsey'i, üyeleri etrafa saçılmış ve cesetleri yerde olmak üzere sürünüyordu; Konsey'in son yaşam solukları, Gabriel'in kılıcının başkaldıran ucundan aşağı akıyordu.
+Son konsey üyesi, sırtı duvara dayanmış hâlde, ölümü her adımda daha da yakınlaşırken panikle aldığı nefeslerin arasında kelimelere tutunmaya çalıştı.
+"B-bekle! B-bunu yapamazsın! Bizim mevkimiz buna izin vermiyor! Bu ihanet, sapkınlık, cinayet! Biz en yüce otoriteyiz, yasalarımız senden üstün!"
+"Siz hiçbir şeyden üstün değilsiniz. Sözlerinizin ne benim, ne de bir başkasının üzerinde gücü var. Kılıçlarımı laflarınla geri sokabileceğine gerçekten inanıyor musun?"
+"A-ama halk bizim tarafımızda! Bizim adil olduğumuzu biliyorlar!"
+"Halk yalnızca korktukları için sizin tarafınızda. Korkulacak bir şey olmadığını göstereceğim. Ne bir ırk, ne bir köken, ne bahşedilmiş bir rütbe, ne de kutsal bir makam beni durdurabilir.
+Hepimiz aynıyız; mevkinizle gelen rahatlık sizi aciz kıldı."
+"L-lütfen Gabriel, aklını başına topla! Konsey, Tanrı'nın iradesini takip eder! Yaratıcımıza karşı mı gelmeye çalışıyors-"
+"Yüzleş artık, kardeşim. Tanrı öldü. Ateş söndü. Hayaletlerin peşinden koşuyorsunuz."
 
-Gabriel's silhouette now towers over the councilor, his shadow cast upon a soon lifeless corpse.
-He raises his sword for the final cut as the crying mess on the floor stammers out its final feeble argument.
-"B-b-but the Father's light! Without me you cannot hope to reconnect with it! I-i-if you kill me, you'll be dead in a matter of hours!"
+Gabriel'in silueti artık konsey üyesinin üzerinde yükseliyor; gölgesi, yakında cansız kalacak bir cesedin üzerine düşüyordu.
+Yerde ağlayan zavallı; son faydasız savunmasını kekelerken, Gabriel son bir darbe için kılıcını kaldırdı.
+"A-a-ama Tanrı'nın Işığı! Ben olmadan onunla yeniden bağ kuramazsın! B-b-beni öldürürsen birkaç saat içinde sen de öleceksin!"
 ...
-"I know."
-A clean, silent cut glides through the councilor's neck, severing his spine with elegance and ease. His head falls onto the marble floor, the rest of his body following soon after.
+"Farkındayım."
+Hızlı ve etkili bir darbe. Gabriel, konsey üyesinin boynunu omurgasından zarafetle ve kolaylıkla ayırdı. Başı mermer zemine düşer; bedeninin geri kalanı da kısa süre sonra peşinden gelir.
 
-Bereft of status but brimming with purpose, Gabriel gave a final message to the angels amassed at the gates of the auditorium before leaving Heaven for the very last time.
-His arm outstretched, without a word, the people saw. In the silence the message rang out to the far ends of the cosmos.
+Makamından yoksun ama sebeplerle dopdolu olan Gabriel, Cennet'i son kez terk etmeden önce oditoryumun kapılarında toplanmış meleklere son bir mesaj verdi.
+Kolu uzanmış hâlde, tek kelime etmeden herkes gördü. Sessizlik o kadar sesliydi ki, Gabriel'in mesajı kozmosun en uzak uçlarına dek yankılandı.
 
  
-<b>TO BE CONCLUDED IN... <color="red">ACT III: GODFIST SUICIDE</b>
+<b>SONUÇLANACAK... <color="red">3. PERDE: İLAHİ İNTİHAR</b>
 """",
 """"
-<i>Mother, mother... Mother of me,
+<i>Anne, anne... Canım annem,
 
 
-I know I know I should not miss you so, but mother of me, I do. Your pained breaths that rasp'd and reverberated in your rusted iron tomb... The blood of your breast that nourish'd me and warmed me in its caress, when corpse and cruelty were all I witnessed...
-
-
-
-
-Mother, mother... Mother of me,
-
-
-I know I know you would hate me so, and mother of me, I do too. But I would not feel, not think, not dream, were it not for you in my rusted iron womb... Your tortured love brought me to this war, that I could take the heart of another, and need you no more.
+Biliyorum, seni böyle özlememeliyim; ama özlüyorum işte, ey canım annem. O paslı demir tabutunda hırıldayan, yankılanan o acı dolu nefeslerin... Şahit olduğum tek şey cesetler ve zulümken, beni besleyen ve şefkatinle ısıtan o göğsünün kanıydı.
 
 
 
 
-Mother, mother... Mother of me,
+Anne, anne... Canım annem,
 
 
-I know I know your thoughts had left you long ago, and mother of me, I will never truly know. But I hope it redeems my life even a slight, when I cried... And crushed your skull that final night.</i>
+Biliyorum, benden nefret ederdin; inan bana, ben de kendimden nefret ediyorum. Lakin ne hissedebilir, ne düşünebilir, ne de rüya görebilirdim; eğer o paslı demir rahmimde var olmasaydın... Senin o işkence görmüş sevgin sürükledi beni bu savaşa; bir başkasının kalbini söküp alabileyim ve sana artık muhtaç kalmayayım diye.
+
+
+
+
+Anne, anne... Canım annem,
+
+
+Biliyorum, zihnin seni terk edeli çok oldu; ve canım annem, bunu asla tam olarak bilemeyeceğim. Ama umuyorum ki o son gece ağladığımda... ve kafatasını parçaladığımda, bu eylem hayatımı bir nebze de olsa arındırmış olur.</i>
 """",
 """"
-DAY 529:
+529. GÜN:
 
-STILL SEARCHING.
-NO CONTACT FROM THE AGENCY IN 216 DAYS.
-I SHOULD RETURN TO HQ BUT I CAN'T. NOT YET.
-I HAVE TO KNOW.
+HALA ARIYORUM.
+216 GÜNDÜR AJANSTAN HABER YOK.
+KARARGAHA DÖNMEM GEREKİYOR. AMA YAPAMAM. DAHA DEĞİL.
+BİLMEK ZORUNDAYIM.
 
-IT'S THERE.
-SOMEWHERE.
-I HAVE TO SEE.
+ORALARDA.
+BİR YERDE.
+GÖRMEK ZORUNDAYIM.
 
-I HAVE TO KNOW.
+BİLMEK ZORUNDAYIM.
 
-I HAVE TO SEE. 
-I HAVE TO KNOW.
+GÖRMEK ZORUNDAYIM. 
+BİLMEK ZORUNDAYIM.
 
-I HAVE TO SEE. I HAVE TO KNOW.
+GÖRMEK ZORUNDAYIM. BİLMEK ZORUNDAYIM.
 
-I HAVE TO SEE I HAVE TO KNOW
-
-
-<size=47>IHAVETOSEEIHAVETOKNOW</size>
-<size=45>IHAVETOSEEIHAVETOKNOW</size>
-<size=43>IHAVETOSEEIHAVETOKNOW</size>
-<size=41>IHAVETOSEEIHAVETOKNOW</size>
-<size=39>IHAVETOSEEIHAVETOKNOW</size>
-<size=37>IHAVETOSEEIHAVETOKNOW</size>
-<size=35>IHAVETOSEEIHAVETOKNOW</size>
-<size=33>IHAVETOSEEIHAVETOKNOW</size>
-<size=31>IHAVETOSEEIHAVETOKNOW</size>
-<size=29>IHAVETOSEEIHAVETOKNOW</size>
-<size=27>IHAVETOSEEIHAVETOKNOW</size>
-<size=25>IHAVETOSEEIHAVETOKNOW</size>
-<size=23>IHAVETOSEEIHAVETOKNOW</size>
-<size=21>IHAVETOSEEIHAVETOKNOW</size>
-<size=19>IHAVETOSEEIHAVETOKNOW</size>
-<size=17>IHAVETOSEEIHAVETOKNOW</size>
-<size=15>IHAVETOSEEIHAVETOKNOW</size>
-<size=13>IHAVETOSEEIHAVETOKNOW</size>
-<size=11>IHAVETOSEEIHAVETOKNOW</size>
-<size=9>IHAVETOSEEIHAVETOKNOW</size>
-<size=7>IHAVETOSEEIHAVETOKNOW</size>
-<size=5>IHAVETOSEEIHAVETOKNOW</size>
-<size=3>IHAVETOSEEIHAVETOKNOW</size>
-<size=1>IHAVETOSEEIHAVETOKNOW</size>
+GÖRMEK ZORUNDAYIM BİLMEK ZORUNDAYIM
 
 
-SIZE 2.
+<size=47>GÖRMEKZORUNDAYIMBİLMEKZORUNDAYIM</size>
+<size=45>GÖRMEKZORUNDAYIMBİLMEKZORUNDAYIM</size>
+<size=43>GÖRMEKZORUNDAYIMBİLMEKZORUNDAYIM</size>
+<size=41>GÖRMEKZORUNDAYIMBİLMEKZORUNDAYIM</size>
+<size=39>GÖRMEKZORUNDAYIMBİLMEKZORUNDAYIM</size>
+<size=37>GÖRMEKZORUNDAYIMBİLMEKZORUNDAYIM</size>
+<size=35>GÖRMEKZORUNDAYIMBİLMEKZORUNDAYIM</size>
+<size=33>GÖRMEKZORUNDAYIMBİLMEKZORUNDAYIM</size>
+<size=31>GÖRMEKZORUNDAYIMBİLMEKZORUNDAYIM</size>
+<size=29>GÖRMEKZORUNDAYIMBİLMEKZORUNDAYIM</size>
+<size=27>GÖRMEKZORUNDAYIMBİLMEKZORUNDAYIM</size>
+<size=25>GÖRMEKZORUNDAYIMBİLMEKZORUNDAYIM</size>
+<size=23>GÖRMEKZORUNDAYIMBİLMEKZORUNDAYIM</size>
+<size=21>GÖRMEKZORUNDAYIMBİLMEKZORUNDAYIM</size>
+<size=19>GÖRMEKZORUNDAYIMBİLMEKZORUNDAYIM</size>
+<size=17>GÖRMEKZORUNDAYIMBİLMEKZORUNDAYIM</size>
+<size=15>GÖRMEKZORUNDAYIMBİLMEKZORUNDAYIM</size>
+<size=13>GÖRMEKZORUNDAYIMBİLMEKZORUNDAYIM</size>
+<size=11>GÖRMEKZORUNDAYIMBİLMEKZORUNDAYIM</size>
+<size=9>GÖRMEKZORUNDAYIMBİLMEKZORUNDAYIM</size>
+<size=7>GÖRMEKZORUNDAYIMBİLMEKZORUNDAYIM</size>
+<size=5>GÖRMEKZORUNDAYIMBİLMEKZORUNDAYIM</size>
+<size=3>GÖRMEKZORUNDAYIMBİLMEKZORUNDAYIM</size>
+<size=1>GÖRMEKZORUNDAYIMBİLMEKZORUNDAYIM</size>
+
+
+BOYUT 2
 """",
 """"
-<b>EXCERPT FROM FERRYMAN'S DIARY</b>
+<b>KAYIKÇININ GÜNLÜĞÜNDEN BİR ALINTI</b>
 
-Some calamity has struck the mortal world. What once was The River Styx has now grown to an unfathomable ocean. A million weeping souls pouring in each day that the shores can barely contain. A tearful tide spilling over at each end, bow to stern, crying for mercy, begging for safe passage. But not all souls can pay and these old hands can only take so many coins. 
+Ölümlülerin dünyasını büyük bir felaket vurdu. Bir zamanlar Styx Nehri olan sular, şimdi akılalmaz büyüklükte bir okyanusa dönüştü. Her gün kıyıların zar zor zapt edebildiği milyonlarca ağlayan ruh akın ediyor buraya. Geminin başından kıçına, her iki yanından taşan gözü yaşlı bir gelgit bu; merhamet için feryat eden, güvenli bir geçiş için yalvaran ruhlar... Lakin her ruh bedelini ödeyemiyor ve bu yaşlı eller ancak bu kadar sikke taşıyabiliyor. 
 
-Then one day, the current shifted. Wave after wave for minutes on end of millions, billions, as though the throat of the world was cut wide and the head wrenched back to speed the pour. I didn't have time to react. The weariness from my ceaseless work claimed me and I slipped beneath the roiling sea, into the depths of the Ocean Styx, my fate sealed by the crushing masses of endless bodies.
+Sonra bir gün, akıntı yön değiştirdi. Dakikalarca bitmek bilmeyen milyonlarca, milyarlarca ruh... Sanki dünyanın boğazı boydan boya kesilmiş ve akışı hızlandırmak için kafası geriye doğru çekilmiş gibi... Tepki verecek vaktim bile olmadı. Durmak bilmeyen çalışmamın getirdiği o amansız yorgunluk beni ele geçirdi ve çalkantılı denizin altına, Styx Okyanusu'nun derinliklerine gömüldüm; kaderim, sonsuz bedenlerin ezici kütlesiyle mühürlendi.
 
-Suddenly, there was a light as brilliant as the Lord himself, ushering me from the darkness with mighty arms that held me with such compassion and warmth as I have never known:
+Aniden, Tanrı'nın kendisi kadar parlak bir ışık belirdi; beni o karanlıktan çekip çıkaran, daha önce hiç tatmadığım bir şefkat ve sıcaklıkla kavrayan kudretli kolları vardı:
 
-<i>"Be not afraid, sinner. Your devotion to God shows goodness in you; plentiful indeed. The heart is willing but the body must rest, lest you squander one of the Lord's creations."
-</i>
+<i>"Korkma, günahkar. Tanrı'ya olan bağlılığın, içindeki iyiliği ortaya koyuyor; hem de bolca. Kalbin istekli olsa da bedeninin dinlenmeye ihtiyacı var. Tanrı'nın eserlerinden birini heba etmeyesin."</i>
 
-His gentle words eased the pain and mended my wounds. My face wet with tears of relief, my words muffled by the weight of my duty. I could only lay in reverence, carried in the embrace of majesty.
+Onun nazik sözleri acımı dindirdi ve yaralarımı iyileştirdi. Yüzüm rahatlamanın getirdiği gözyaşlarıyla ıslanmıştı, kelimelerim ise görevimin ağırlığı altında boğulmuştu. Bu ihtişamın kucağında taşınırken, yapabildiğim tek şey derin bir saygıyla öylece uzanmaktı.
 
-Radiant is Gabriel, for he is the light in my darkness.
+Nur saçıyor Gabriel; zira o, benim karanlığımdaki ışıktır.
 """",
 """"
-<b>WISE FISH</b>
+<b>BİLGE BALIK</b>
 
-A very wise fish. Will impart its great knowledge to any who are able find it.
+Çok bilge bir balık. Kendisini bulabilen herkese engin bilgisini aktarır.
 
-Found in the deepest, darkest depths of libraries.
+Kütüphanelerin en derin ve en karanlık köşelerinde bulunur.
 """",
 """"
-<b>EXCERPT FROM THE SCRIPT OF A FAMOUS MOVIE</b>
+<b>ÜNLÜ BİR FİLMİN SENARYOSUNDAN ALINTI</b>
 
 
-(Black screen with text; The sound of an electric railcannon can be heard) 
+(Siyah ekranda yazılar belirir, arkaplanda bir Elektrikli Raytopu'nun sesi duyulur.) 
 
 
-According to all known laws of aviation, there is no way a V model machine should be able to fly. 
+Bilinen tüm havacılık kurallarına göre, bir V model makinenin uçabilmesi mümkün değildir.
 
 
-Its wings are too small to get its fat metal body off the ground. 
+Kanatları, şişko metal gövdesini yerden kaldırmak için çok küçüktür.
 
 
-The machine, of course, slam storages anyway...
+Makineler, her şeye rağmen, çakılma depolar.
 
 
-Because machines don't care what humans think is impossible. 
+Çünkü makineler, insanların imkânsız dedikleri şeyleri takmaz.
 """",
 """"
-If you can read this, <b>PLEASE</b> pay attention. The size 2 fish is a lie. A fabrication. <b>A trap.</b>
+Bunu okuyabiliyorsanız, <b>LÜTFEN</b> dikkatinizi verin. Boyut 2 balık bir yalan. Uydurma. <b>Bir tuzak.</b>
 
 
-I was once the same as you: a fishing enthusiast like any other, dreaming of one day catching the legendary fish.
+Ben de bir zamanlar senin gibiydim: diğerleri gibi balıkçılık meraklısıydım ve bir gün o efsanevi balığı yakalamayı hayal ediyordum.
 
 
-But over time, I became obsessed with the legend. It consumed me. I was no longer myself. 
+Ama zamanla bu efsaneye takıntılı hale geldim. Beni tamamen ele geçirdi. Artık kendim değildim. 
 
 
-Eventually, I was given instructions from a mysterious source about the whearabouts of size 2. Naturally, I followed them. 
+Sonunda, 2 numaranın nerede olduğu konusunda gizemli bir kaynaktan talimatlar aldım. Doğal olarak, bu talimatları uyguladım. 
 
 
-But what I found was not glory. It was something terrifying. There is no size 2. There is no prize. And now it's too late for me. If you don't want to suffer the same fate as me, please d
+Ama bulduğum şey zafer değildi. Korkunç bir şeydi. Ne boyut 2. Ne de bir ödül. Artık benim için çok geç. Eğer benimle aynı kadere maruz kalmak istemiyorsan, lütfen b-
 
 
-<color="red><b>K E E P   F I S H I N G
+<color="red><b>B A L I K   T U T M A Y A   D E V A M   E D İ N</b></color>
 """",
 """"
 Fishers
 
-        The first contact was bound to happen. The seas, let alone the oceans was simply too big for just a singular species to develop intelligence in. Any delay in contact only meant a heightening of the eventual culture shock. In fishmanity’s case, this “culture shock” meant the <i>complete extinction</i> of fishkind as it had come to be known.
+        İlk temas kaçınılmazdı. Denizler, okyanusları bir yana bırakın, tek bir türün zeka geliştirmesi için fazlasıyla büyüktü. Temastaki her gecikme, kaçınılmaz kültür şokunu yalnızca daha da derinleştiriyordu. Balıkinsanlığın durumunda bu "kültür şoku", balıkoğlu'nun bilinen haliyle <i>tamamen yok</i> olması anlamına geliyordu.
 
-        Almost a billion years old, the alien species known as Fishers were oceanic nomads,traveling from one spiral arm to another in epoc-spanning migrations. During theirtravels they constantly improved and changed themselves until they became masters ofgenetic and nanotechnological manipulation. With this ability to control the material world, they assumed a religious, self-imposed mission to <i>“remake the oceans as they saw fit.”</i> Powerful as gods, Fishers saw themselves as the divine harbingers of the future.
+        Neredeyse bir milyar yaşında olan Balıkçılar adlı uzaylı tür, okyanus gezginleriydi; çağları kapsayan göçlerle bir sarmal koldan diğerine seyahat ediyorlardı. Bu yolculuklar sırasında kendilerini sürekli geliştirip değiştirerek genetik ve nanoteknolojik manipülasyonun ustaları haline geldiler. Maddi dünyayı kontrol etme yetenekleriyle, <i>"okyanusları uygun gördükleri şekilde yeniden şekillendirmek"</i> için dini, kendi kendilerine yükledikleri bir misyon edindiler. Tanrılar kadar güçlü olan Balıkçılar, kendilerini geleceğin ilahi habercileri olarak görüyordu.
 
-        This dogma was rooted in what had been a benevolent attempt to protect the race from its own power. However, blind, unquestioning obedience had made monsters of the Fishers.
+        Bu dogma, ırkı kendi gücünden korumaya yönelik hayırsever bir girişimden doğmuştu. Ancak kör, sorgulamasız itaat, Balıkçıları canavara dönüştürmüştü.
 
-        To them fishmanity, with all of its relative glories, was nothing more than a transmutable subject. Within less than a thousand years, every fish pond was destroyed, depopulated or even worse; changed. Despite the fervent rearmament, the colonies could achieve nothing against its billion-year-old foes, save for a few flashes of ephemeral resistance.
+        Onlar için balıkinsanlık, tüm görece ihtişamıyla, dönüştürülebilir bir nesneden ibaretti. Bin yıldan kısa bir süre içinde her balık göleti yok edildi, boşaltıldı ya da daha da kötüsü; değiştirildi. Tüm hızlı yeniden silahlanmaya rağmen, koloniler milyar yaşındaki düşmanlarına karşı birkaç anlık direniş parıltısı dışında hiçbir şey başaramadı.
 
-        fishmanity, once the ruler of the oceans, was now extinct. However, fish were not.
+        Okyanusların bir zamanlar hâkimi olan balıkinsanlık artık yok olmuştu. Ancak balık yok olmamıştı.
 """",
 $""""
-This is the story about a fisher named <color=orange>{GenericHelper.GetSteamName()}</color>.
+Bu hikaye, <color=orange>{GenericHelper.GetSteamName()}</color> isimli bir Balıkçının hikayesi.
 
-<color=orange>{GenericHelper.GetSteamName()}</color> was a fisher who worked in a massive intelligent superorganism named <color=red>HELL</color> as Fisher Number 427. 
+<color=orange>{GenericHelper.GetSteamName()}</color>, zeki bir süperorganizma olan <color=red>CEHENNEMDE</color> Balıkçı 427 olarak çalışıyordu. 
 
-Fisher Number 427's job was simple. They would sit at their fishing spot and catch fish. Orders came through their computer telling them what fish to catch. 
+Balıkçı 427'nin işi basitti. Balık tutacağı yere oturur balık tutardı. Emirler bir bilgisayar aracılığıyla gelir, ona hangi balığı tutması gerektiğini söylerdi.
 
-This is what Fisher 427 did every day of every month of every year; and althoigh others might have considered it soul-rending, <color=orange>{GenericHelper.GetSteamName()}</color> relished every moment that the orders came in, as though they had been made exactly for this job... and <color=orange>{GenericHelper.GetSteamName()}</color> was happy.
+İşte bu, Balıkçı 427'nin her yılın her ayının her haftasının her günü yaptığı işti, ve başkalarının bu işin ruhunu öldüreceğini düşünse de, <color=orange>{GenericHelper.GetSteamName()}</color>, sanki bu iş için yaratılmış gibi, emirlerin geldiği her defasında bir haz alıyordu... ve <color=orange>{GenericHelper.GetSteamName()}</color> mutluydu.
 """",
 $""""
-<b>POST FROM AN ONLINE FORUM</b>
+<b>İNTERNETTE BİR FORUMDAN GÖNDERİ</b>
 
-GABMIRAGE MV1 AND GABV1EL WITH MIRAGE POSSESSING V1 X GABRIEL 
+GABMIRAGE MV1 VE GABV1EL FAKAT MIRAGE, V1 X GABRIEL'İ ELE GEÇİRİYOR 
 
-NOBODY MOVE!!!
+KİMSE HAREKET ETMESİN!!!
 """",
 """"
 <b>EXCERPT FROM A FAMOUS JOKE BOOK</b>
 
 
-Did you hear about the machine who told the <b><color=yellow>JUDGE OF HELL</color></b> that the <b><color=yellow>HOLY LIGHT OF THE FATHER</color></b> was severed from his body?
-<i>In turn, <b><color=yellow>GABRIEL</color></b> destroyed it!</i>
+<b><color=yellow>CEHENNEMİN YARGICINA</color></b>, varlığından <b><color=yellow>TANRI'NIN IŞIĞININ</color></b> koparıldığını söyleyen makineyi biliyor musun?
+<i><b><color=yellow>GABRIEL</color></b>'de kısasa kısas olsun diye onu kopardı</i>
 
 
-Did you hear about the machine who blew itself up with their <b>MALICIOUS RAILCANNON</b>?
-<i>I'm sure you can guess what happened!</i>
+Kendini <b>KİNDAR RAYTOPU</b> ile havaya uçuran adama n'olduğunu biliyor musun?
+<i>N'olduğunu tahmin edebilirsin diye düşünüyorum!</i>
 
 
-Did you hear about the machine who thought it could <color=green>noclip</color> without cheats?
-<i>It couldn't!</i>
+Hileler olmadan <color=green>duvarların içinden geçebileceğini</color> düşünen makineye n'olduğunu biliyor musun?
+<i>Geçememiş!</i>
 
 
-Did you hear about the machine who walked in on two <b>STREETCLEANERS</b> behind a corner?
-<i>It was destroyed!</i>
+Bir köşeden döndüğünde iki <b>HADEMEYLE</b> karşılaşan makineye nolduğunu biliyor musun?
+<i>Kül oldu!</i>
 
 
-Did you hear about the machine who tried to use their <b>ELECTRIC RAILCANNON</b> underwater?
-<i>It was destroyed!</i>
+Suyun altında <b>ELEKTRİKLİ RAYTOPUNU</b> kullanmaya çalışan makineye n'olduğunu biliyor musun?
+<i>Çarpıldı!</i>
 
 
-Did you hear about the machine who tried to pump their <b>PUMP CHARGE SHOTGUN</b> 3 times?
-<i>It went boom!</i>
+<b>ŞARJLI POMPALISINI</b> 3 kere şarj etmeye çalışan makineye n'olduğunu biliyor musun?
+<i>Bom diye patladı!</i>
 """",
 """"
-<b>LIST OF FAMOUS QUOTES BY ARSI "HAKITA" PATALA:</b>
+<b>ARSI "HAKITA" PATALA'NIN ÜNLÜ SÖZLERİ:</b>
 
 
-"it's a good thing you guys aren't designing ultrakill or it would suck"
+"iyiki ultrakilli siz yapmıyorsunuz yoksa yarram gibi olurdu"
 
 
-"don't do that then"
+"o zaman yapma amına koyim"
 
 
-"everything is a requiem leitmotif except for requiem which is an order leitmotif except for order which is a gaster leitmotif"
+"her şey bir requiem leitmotifidir requiem hariç requiem ise bir order leitmotifidir order hariç order ise bir gaster leitmotifidir"
 
 
-"the human mind is excellent at finding patterns even when there aren't any"
+"insan beyni hiç bir patern olmamasına rağmen patern bulmakta sebepsiz yere çok iyidir"
 
 
-"you should suck on .diz dick"
+"mı yala ne biliyor musun? yarramı yala"
 
 
-"culture shouldn't exist only for those who can afford it"
+"kültür sadece parası olanlar için var olmamalı"
 
 
-"australia as an example is 7.68 million square kilometers, so even if V1 could go through a square kilometer in kill everyone in it with 100% efficiency in just 10 seconds, it'd still take over 2 years to kill all of australia"
+"örneğin avustralyanın yüzölçümü 7,68 milyon kilometrekaredir, dolayısıyla V1 bir kilometrekareyi sadece 10 saniyede %100 verimlilikle geçip içindeki herkesi öldürebilse bile, avustralyadaki herkesi öldürmesi yine de 2 yıldan fazla sürer"
 
 
-"testicles"
+"daşaklar"
 
 
-"believe it or not that happened about 5 minutes ago when you were posting about licking your phone screen in a completely unrelated channel in the middle of an actual indepth conversation"
+"ister inan ister inanma, bu olay yaklaşık 5 dakika önce, tam da derinlemesine bir sohbetin ortasında, konuyla hiç alakası olmayan bir kanalda telefon ekranınını yaladığını anlattığın sırada yaşandı"
 
 
-"adding 'the ferryman's head has a vertex that's too pointy' to the list of definitely not completely insane requests"
+"'kayıkçının kafasının tepe noktası fazla sivri' ifadesini, kesinlikle tamamen çılgın olmayan istekler listesine ekledim gitti"
 
 
-"yeah well git gud asshole"
+"siktir git geliş oyunda amına koyim"
 
 
-"mahjong causes great damage to the human spirit without a single benefit"
+"okey insan ruhuna büyük zarar verirken hiçbir fayda sağlamıyor"
 
 
-"holden my nuts"
+"daşaklarıma beton yetmez"
 
 
-"if you want to worry about something looking bad, go check out your nearest mirror"
+"eğer kötü durduğu için endişelenecek bir şey arıyorsanız gidin ve aynaya bakın"
 
 
-"first name cum, second name cision, title sir"
+"ad boşalmak, soyad cision, unvan efendim"
 
 
-"why didnt this hotfix add a boulder for sisyphus? he's a boulder guy right? he's the guy with the boulder? why doesnt he have a boulder? i thought his whole thing was that he's a boulder. i was hoping to fight boulder feat sisyphus.... where's the boulder?"
+"bu düzeltme güncellemesi neden sisyphus için bir kaya eklemedi? o bir kaya adamı değil mi? kaya taşıyan adam o değil mi? neden bir kayası yok? onun tüm olayı bir kaya olması olduğunu sanıyordum. sisyphusla bir kaya üzerinde dövüşmeyi umuyordum... kaya nerede?"
 
-"i dont think gravity falls, i dont think it has the ability to do that"
+"bir kasaba esrarengiz olamaz, kasabalar öyle çalışmıyor"
 """",
   };
 }

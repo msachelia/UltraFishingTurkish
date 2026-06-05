@@ -111,7 +111,7 @@ public class GlobalFishEncyclopedia : FishEncyclopedia {
   public new void SelectFish(FishObject fish) {
     fishName.text = (GlobalFishManager.FoundFish(fish) ? fish.fishName : "???");
 
-    if (fish.fishName == "Mannequin Fish") {
+    if (fish.fishName == "Manken Balık") {
       mannequinFishDescription.SetActive(true);
       fishDescription.text = "";
     }

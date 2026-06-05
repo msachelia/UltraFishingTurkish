@@ -2,7 +2,8 @@
     "name": "UltraBalikci",
     "version_number": "2.1.0",
     "website_url": "https://discord.gg/7UZHU8yZHK",
-    "description": "Cephaneliğinze bir olta ve tutulacak bir sürü yeni balık ekler. Şimdi Türkçe dil desteğiyle!",
+    "description":
+        "Cephaneliğinze bir olta ve tutulacak bir sürü yeni balık ekler. Şimdi Türkçe dil desteğiyle! Adds a permanent fishing rod to your arsenal and new fishes to discover! Now in Turkish!",
     "dependencies": [
         "BepInEx-BepInExPack-5.4.2305",
         "UltraTurk-UltraTurk-0.9.14"

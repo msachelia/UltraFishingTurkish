@@ -194,7 +194,7 @@ public class NewFishingRod : FishingRodWeapon {
         baitThrown = false;
         if (Vector3.Distance(NewMovement.Instance.transform.position, spawnedBaitCon.baitPoint.position) > distanceAfterThrow + 30f) {
           Object.Destroy(spawnedBaitCon.gameObject);
-          HudMessageReceiver.Instance.SendHudMessage("Fishing interrupted");
+          HudMessageReceiver.Instance.SendHudMessage("Balık tutma yarıda kesildi.");
           ResetFishing();
           break;
         }
@@ -208,7 +208,7 @@ public class NewFishingRod : FishingRodWeapon {
           if (hookedFishe == null) {
             if (!noFishErrorDisplayed) {
               noFishErrorDisplayed = true;
-              HudMessageReceiver.Instance.SendHudMessage("Nothing seems to be biting here...");
+              HudMessageReceiver.Instance.SendHudMessage("Burada hiç balık yok gibi...");
             }
             break;
           }

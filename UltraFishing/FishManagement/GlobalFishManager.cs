@@ -186,7 +186,7 @@ public static class GlobalFishManager {
         break;
       case "Cancerous Fish":
         fish.fishName = "Kanserojen Balık";
-        fish.description = "Mutasyona uğramış bir balık. Ağzından çıkan her kelimenin siyasetle alakalı olmasıyla ünlüdür. Hatta 1960'ların sonlarında Solcu ve Sağcı kavgasını başlattığı söylenir.\n\nSadece radyasyona mağruz kalmış suların içinde bulunur.";
+        fish.description = "Mutasyona uğramış bir balık. Ağzından çıkan her kelimenin siyasetle alakalı olmasıyla ünlüdür. Hatta 1960'ların sonlarında Solcu ve Sağcı kavgasını başlattığı söylenir.\n\nSadece radyasyona maruz kalmış suların içinde bulunur.";
         break;
       case "Flying Demon Fish":
         fish.fishName = "Kanatlı İblis Balığı";

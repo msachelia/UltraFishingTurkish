@@ -3,9 +3,9 @@
     "version_number": "2.2.0",
     "website_url": "https://discord.gg/7UZHU8yZHK",
     "description":
-        "Cephaneliğinze bir olta ve tutulacak bir sürü yeni balık ekler. Şimdi Türkçe dil desteğiyle! Adds a permanent fishing rod to your arsenal and new fishes to discover! Now in Turkish!",
+        "Adds a permanent fishing rod to your arsenal and new fishes to discover! Now in Turkish!\nCephaneliğinze bir olta ve tutulacak bir sürü yeni balık ekler! Şimdi Türkçe dil desteğiyle!",
     "dependencies": [
         "BepInEx-BepInExPack-5.4.2305",
-        "UltraTurk-UltraTurk-0.9.14"
+        "UltraTurk-UltraTurk-1.0.0"
     ]
 }

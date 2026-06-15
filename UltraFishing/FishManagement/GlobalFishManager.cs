@@ -222,7 +222,6 @@ public static class GlobalFishManager {
         break;
       case "Mannequin Fish":
         fish.fishName = "Manken Balığı";
-        fish.description = "";
         break;
       case "Tasty Fish":
         fish.fishName = "Leziz Balık";

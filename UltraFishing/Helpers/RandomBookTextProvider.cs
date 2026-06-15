@@ -60,7 +60,7 @@ Onun katkıları şöyle:
 </size>
 <color=green><i>"bi balık yeniliyecez diye geldik tüm modu yeniden yaptık amına koyim"</i></color>
 
-<b><color=#FFD300>achelia</color> - ULTRATURK BAŞ ÇEVİRMEN/PROGRAMCI</b>
+<b><color=#FFD300>achelia</color> - ULTRATURK BAŞ ÇEVİRMENİ/PROGRAMCI</b>
 
 Modu beğendiğinden dolayı Türkçe'ye çevirmek istedi.
 
@@ -72,6 +72,7 @@ Onun katkıları şöyle:
 - UltrakULL'a UltraFishing desteği eklemesi
 - UltraFishing'i UltraTurk ile uyumlu hale getirmesi
 </size>
+
 <color=#FFD300><i>"güzel mod oynayın"</i></color>
 
 <b>ÖZEL TEŞEKKÜRKLER</b>
@@ -417,7 +418,7 @@ Ama bulduğum şey zafer değildi. Korkunç bir şeydi. Ne boyut 2. Ne de bir ö
 <color="red><b>B A L I K   T U T M A Y A   D E V A M   E D İ N</b></color>
 """",
 """"
-Fishers
+Balıkçılar
 
         İlk temas kaçınılmazdı. Denizler, okyanusları bir yana bırakın, tek bir türün zeka geliştirmesi için fazlasıyla büyüktü. Temastaki her gecikme, kaçınılmaz kültür şokunu yalnızca daha da derinleştiriyordu. Balıkinsanlığın durumunda bu "kültür şoku", balıkoğlu'nun bilinen haliyle <i>tamamen yok</i> olması anlamına geliyordu.
 
@@ -521,7 +522,8 @@ Suyun altında <b>ELEKTRİKLİ RAYTOPUNU</b> kullanmaya çalışan makineye n'ol
 "ad boşalmak, soyad cision, unvan efendim"
 
 
-"bu düzeltme güncellemesi neden sisyphus için bir kaya eklemedi? o bir kaya adamı değil mi? kaya taşıyan adam o değil mi? neden bir kayası yok? onun tüm olayı bir kaya olması olduğunu sanıyordum. sisyphusla bir kaya üzerinde dövüşmeyi umuyordum... kaya nerede?"
+"bu düzeltme güncellemesi neden sisifos için bir kaya eklemedi? o bir kaya adamı değil mi? kaya taşıyan adam o değil mi? neden bir kayası yok? onun tüm olayı bir kaya olması olduğunu sanıyordum. sisifos bir kaya üzerinde dövüşmeyi umuyordum... kaya nerede?"
+
 
 "bir kasaba esrarengiz olamaz, kasabalar öyle çalışmıyor"
 """",
